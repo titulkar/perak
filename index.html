@@ -3,85 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabulka stažených videí</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-        }
-        
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        
-        .table-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            overflow-x: auto;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: white;
-        }
-        
-        th {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px;
-            text-align: left;
-            font-weight: bold;
-        }
-        
-        td {
-            padding: 10px 12px;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-        
-        .zip-button {
-            background-color: #2196F3;
-            color: white;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-        .zip-button:hover {
-            background-color: #0b7dda;
-        }
-        
-        .video-link {
-            color: #4CAF50;
-            text-decoration: none;
-            margin: 0 5px;
-        }
-        
-        .video-link:hover {
-            text-decoration: underline;
-            color: #45a049;
-        }
-        
-        .video-links {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-    </style>
+    <title>Tabulka stažených videí - Titulky</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>📁 Přehled nahraných videí</h1>
+    <h1>📁 Přehled nahraných videí - Titulky</h1>
     
     <div class="table-container">
         <table>
@@ -91,28 +17,29 @@
                     <th>Název seriálu/filmu</th>
                     <th>Série</th>
                     <th>Díl</th>
-                    <th>Stáhni ZIP soubor</th>
+                    <th>Stáhni ZIP soubor (titulky)</th>
                     <th>Odkazy na video</th>
                 </tr>
             </thead>
             <tbody>
                 <!-- Ukázková data -->
                 <tr>
-                    <td>2024-01-15</td>
-                    <td>Přátelé (Friends)</td>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>16.3.2026</td>
+                    <td>QI - XL M Places</td>
+                    <td>13</td>
+                    <td>3</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Přátelé_S01E01.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="titulky/QI_-_1303_-_XL_M_Places.zip" class="zip-button" download>
+                            📦 Stáhnout  titulky
+                        </a>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p')">🎬 720p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 480p')">🎬 480p</a>
-                        </div>
+                        <a href="https://drive.google.com/drive/folders/11kI7sObH6QyxfrnQ7vvPD58qnBPAKYHK?hl=cs\" class="video-link" target=\"_blank\">
+                        VIDEA S TITULKY NAPEVNO</a>
+                        <a href="https://prehrajto.cz/qi-s13e03-xl-m-places-mkv/449614ef38252fd9" class="video-link" target=\"_blank\">
+                        VIDEO na přehraj.to</a>
+                       </div>
                     </td>
                 </tr>
                 
@@ -122,14 +49,15 @@
                     <td>1</td>
                     <td>1</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Hra_o_trůny_S01E01.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="/titulky/Hra_o_truny_S01E01.zip" class="zip-button" download>
+                            📦 Stáhnout ZIP (CZ+EN titulky)
+                        </a>
+                        <div class="subtitle-info">české a anglické titulky</div>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p')">🎬 720p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p s titulky')">🎬 1080p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p s titulky')">🎬 720p</a>
                         </div>
                     </td>
                 </tr>
@@ -140,16 +68,17 @@
                     <td>-</td>
                     <td>-</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Avengers_Endgame.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="/titulky/Avengers_Endgame.zip" class="zip-button" download>
+                            📦 Stáhnout ZIP (CZ titulky)
+                        </a>
+                        <div class="subtitle-info">včetně českých titulků pro neslyšící</div>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 4K')">🎬 4K</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p')">🎬 720p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 480p')">🎬 480p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 4K s titulky')">🎬 4K</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p s titulky')">🎬 1080p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p s titulky')">🎬 720p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 480p s titulky')">🎬 480p</a>
                         </div>
                     </td>
                 </tr>
@@ -160,14 +89,15 @@
                     <td>2</td>
                     <td>15</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Kancelář_S02E15.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="/titulky/Kancelar_S02E15.zip" class="zip-button" download>
+                            📦 Stáhnout ZIP (CZ titulky)
+                        </a>
+                        <div class="subtitle-info">synchronizované titulky</div>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p')">🎬 720p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p s titulky')">🎬 1080p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p s titulky')">🎬 720p</a>
                         </div>
                     </td>
                 </tr>
@@ -178,13 +108,14 @@
                     <td>-</td>
                     <td>-</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Zakletá_Ella.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="/titulky/Zakleta_Ella.zip" class="zip-button" download>
+                            📦 Stáhnout ZIP (CZ titulky)
+                        </a>
+                        <div class="subtitle-info">včetně českých titulků</div>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p s titulky')">🎬 1080p</a>
                         </div>
                     </td>
                 </tr>
@@ -195,15 +126,16 @@
                     <td>4</td>
                     <td>4</td>
                     <td>
-                        <button class="zip-button" onclick="alert('Stahuji ZIP: Stranger_Things_S04E04.zip')">
-                            📦 Stáhnout ZIP
-                        </button>
+                        <a href="/titulky/Stranger_Things_S04E04.zip" class="zip-button" download>
+                            📦 Stáhnout ZIP (CZ+EN titulky)
+                        </a>
+                        <div class="subtitle-info">české, anglické a slovenské titulky</div>
                     </td>
                     <td>
                         <div class="video-links">
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 4K')">🎬 4K</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p')">🎬 1080p</a>
-                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p')">🎬 720p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 4K s titulky')">🎬 4K</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 1080p s titulky')">🎬 1080p</a>
+                            <a href="#" class="video-link" onclick="alert('Přehrávám verzi 720p s titulky')">🎬 720p</a>
                         </div>
                     </td>
                 </tr>
@@ -211,20 +143,48 @@
         </table>
     </div>
     
-    <div style="text-align: center; margin-top: 20px; color: #666; font-size: 14px;">
-        <p>ℹ️ Kliknutím na tlačítko ZIP zahájíte stahování. Kliknutím na odkazy videí spustíte přehrávání.</p>
+    <div class="note">
+        <p>📂 <strong>Informace o stahování:</strong> Všechny ZIP soubory se stahují ze složky <strong>/titulky</strong></p>
+        <p>ℹ️ Kliknutím na odkaz ZIP zahájíte stahování souboru ze složky titulky. Kliknutím na odkazy videí spustíte přehrávání s příslušnými titulky.</p>
+        <p style="font-size: 12px; margin-top: 5px;">🔧 Pro správnou funkci stahování nahraďte cesty "/titulky/nazev_souboru.zip" skutečnými cestami k vašim souborům.</p>
     </div>
 
     <script>
-        // Zde můžete přidat vlastní JavaScript funkcionalitu
-        // Například dynamické načítání dat z API nebo pokročilé ovládání
-        
-        // Ukázková funkce pro potvrzení stažení
-        function downloadZip(fileName) {
-            if (confirm(`Opravdu chcete stáhnout soubor ${fileName}?`)) {
-                alert(`Stahování souboru ${fileName} zahájeno...`);
-                // Zde by byl skutečný kód pro stažení souboru
-            }
+        // Funkce pro kontrolu existence souborů v adresáři titulky
+        function checkSubtitleFiles() {
+            console.log('Kontrola souborů ve složce /titulky...');
+            // Zde by byla logika pro kontrolu existence souborů
+        }
+
+        // Volání funkce po načtení stránky
+        window.onload = function() {
+            checkSubtitleFiles();
+        };
+
+        // Funkce pro dynamické přidávání nových řádků
+        function addNewEntry(datum, nazev, serie, dil, zipSoubor, popisTitulku, videoOdkazy) {
+            const tableBody = document.querySelector('tbody');
+            const newRow = document.createElement('tr');
+            
+            newRow.innerHTML = `
+                <td>${datum}</td>
+                <td>${nazev}</td>
+                <td>${serie}</td>
+                <td>${dil}</td>
+                <td>
+                    <a href="/titulky/${zipSoubor}" class="zip-button" download>
+                        📦 Stáhnout ZIP
+                    </a>
+                    <div class="subtitle-info">${popisTitulku}</div>
+                </td>
+                <td>
+                    <div class="video-links">
+                        ${videoOdkazy}
+                    </div>
+                </td>
+            `;
+            
+            tableBody.appendChild(newRow);
         }
     </script>
 </body>
