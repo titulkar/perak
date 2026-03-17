@@ -7,7 +7,15 @@
         <language>cs-cz</language>
         <lastBuildDate>Mon, 16 Jan 2026 12:00:00 GMT</lastBuildDate>
         <atom:link href="https://titulkar.github.io/perak/rss.xml" rel="self" type="application/rss+xml"/>
-        
+
+        <item>
+            <title>QI - S13E04 Místa na M</title>
+            <link>https://titulkar.github.io/perak/titulky/QI_-_1304_-_XL_M_Places.zip</link>
+            <description>České titulky k 3. dílu QI.</description>
+            <pubDate>Thu, 17 Mar 2026 09:00:00 GMT</pubDate>
+            <enclosure url="https://titulkar.github.io/perak/titulky/QI_-_1303_-_XL_M_Places.zip" type="application/zip"/>
+        </item>
+
         <item>
             <title>QI - S13E03 Místa na M</title>
             <link>https://titulkar.github.io/perak/titulky/QI_-_1303_-_XL_M_Places.zip</link>
