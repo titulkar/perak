@@ -4,9 +4,63 @@ body {
     background-color: #f5f5f5;
 }
 
+.header {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 h1 {
     color: #333;
-    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.rss-container {
+    display: flex;
+    gap: 15px;
+}
+
+.rss-link, .atom-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.rss-link {
+    background-color: #f26522;
+    color: white;
+}
+
+.rss-link:hover {
+    background-color: #d44d0f;
+    transform: scale(1.05);
+}
+
+.atom-link {
+    background-color: #5a5a5a;
+    color: white;
+}
+
+.atom-link:hover {
+    background-color: #3a3a3a;
+    transform: scale(1.05);
+}
+
+.rss-icon, .atom-icon {
+    font-size: 18px;
 }
 
 .table-container {
@@ -94,4 +148,31 @@ tr:hover {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.note a {
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.note a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .rss-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
 }

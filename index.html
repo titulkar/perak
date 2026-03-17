@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perakovo titulky pro QI</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="b196f0d6-cfd9-4980-b8c2-09a598fab19f"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+        <link rel="alternate" type="application/rss+xml" title="RSS kanál - Nové titulky" href="rss.xml">
+
 </head>
 <body>
-    <h1>Titulky pro 13.řadu QI (série M)</h1>
+    <header class="header">
+        <h1>Titulky pro 13.řadu QI (série M)</h1>
+        <div class="rss-container">
+            <a href="rss.xml" class="rss-link" target="_blank">
+                <span class="rss-icon">📡</span> RSS kanál
+            </a>
+
+        </div>
+    </header>
+
     
     <div class="table-container">
         <table>
@@ -15,7 +28,6 @@
                 <tr>
                     <th>Datum nahrání</th>
                     <th>Název seriálu/filmu</th>
-                    <th>Série</th>
                     <th>Díl</th>
                     <th>Stáhni ZIP soubor (titulky)</th>
                     <th>Odkazy na video</th>
@@ -25,7 +37,6 @@
                 <tr>
                     <td>16.3.2026</td>
                     <td>QI - XL M Places</td>
-                    <td>13</td>
                     <td>3</td>
                     <td>
                         <a href="titulky/QI_-_1303_-_XL_M_Places.zip" class="zip-button" download>
@@ -45,7 +56,6 @@
                 <tr>
                     <td>13.2.2026</td>
                     <td>QI - XL Military Matters</td>
-                    <td>13</td>
                     <td>2</td>
                     <td>
                         <a href="titulky/QI_-_1302_-_XL_Military_Matters.zip" class="zip-button" download>
@@ -65,7 +75,6 @@
                 <tr>
                     <td>20.1.2026</td>
                     <td>QI - XL A Medley of Maladies</td>
-                    <td>13</td>
                     <td>1</td>
                     <td>
                         <a href="titulky/QI_-_1301_-_XL_A_Medley_of_Maladies.zip" class="zip-button" download>
@@ -89,45 +98,10 @@
     <div class="note">
         <p>📂 <strong>Informace ke stahování titulků:</strong> Titulky jsou ve formátu SubRip (jednoduchý soubor s příponou .srt) a zabalené v ZIP formátu s s příponou .zip.</p>
         <p>ℹ️ Kliknutím na odkaz ZIP zahájíte stahování souboru. Kliknutím na odkazy videí se otevře nové okno s úložištěm s videi.</p>
+    <p>📡 <strong>RSS kanál:</strong> Odebírejte <a href="rss.xml" target="_blank">RSS</a> pro novinky o nových titulcích.</p>
+
     </div>
 
-    <script>
-        // Funkce pro kontrolu existence souborů v adresáři titulky
-        function checkSubtitleFiles() {
-            console.log('Kontrola souborů ve složce /titulky...');
-            // Zde by byla logika pro kontrolu existence souborů
-        }
-
-        // Volání funkce po načtení stránky
-        window.onload = function() {
-            checkSubtitleFiles();
-        };
-
-        // Funkce pro dynamické přidávání nových řádků
-        function addNewEntry(datum, nazev, serie, dil, zipSoubor, popisTitulku, videoOdkazy) {
-            const tableBody = document.querySelector('tbody');
-            const newRow = document.createElement('tr');
-            
-            newRow.innerHTML = `
-                <td>${datum}</td>
-                <td>${nazev}</td>
-                <td>${serie}</td>
-                <td>${dil}</td>
-                <td>
-                    <a href="/titulky/${zipSoubor}" class="zip-button" download>
-                        📦 Stáhnout ZIP
-                    </a>
-                    <div class="subtitle-info">${popisTitulku}</div>
-                </td>
-                <td>
-                    <div class="video-links">
-                        ${videoOdkazy}
-                    </div>
-                </td>
-            `;
-            
-            tableBody.appendChild(newRow);
-        }
-    </script>
+        <script src="script.js"></script>
 </body>
 </html>

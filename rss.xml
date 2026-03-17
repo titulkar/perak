@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Titulky pro 13.řadu QI (série M)</title>
+        <link>https://titulkar.github.io/perak/</link>
+        <description>Přehled nově nahraných titulků k 13. řadě QI (je to soutěžní, komediálně-vzdělávací pořad z Velké Británie, vysílaný stanicí BBC)</description>
+        <language>cs-cz</language>
+        <lastBuildDate>Mon, 16 Jan 2026 12:00:00 GMT</lastBuildDate>
+        <atom:link href="https://titulkar.github.io/perak/rss.xml" rel="self" type="application/rss+xml"/>
+        
+        <item>
+            <title>QI - S13E03 Místa na M</title>
+            <link>https://titulkar.github.io/perak/titulky/titulky/QI_-_1303_-_XL_M_Places.zip</link>
+            <description>České titulky k 3. dílu QI.</description>
+            <pubDate>Mon, 16 Mar 2026 10:00:00 GMT</pubDate>
+            <enclosure url="https://titulkar.github.io/perak/titulky/titulky/QI_-_1303_-_XL_M_Places.zip" type="application/zip"/>
+        </item>
+        
+        <item>
+            <title>QI - S13E02 Vojenské záležitosti</title>
+            <link>https://titulkar.github.io/perak/titulky/titulky/QI_-_1302_-_XL_Military_Matters.zip</link>
+            <description>České titulky k 2. dílu QI.</description>
+            <pubDate>Fri, 13 Feb 2026 10:00:00 GMT</pubDate>
+            <enclosure url="https://titulkar.github.io/perak/titulky/titulky/QI_-_1302_-_XL_Military_Matters.zip" type="application/zip"/>
+        </item>
+
+        <item>
+            <title>QI - S13E01 Mišmaš moribundů</title>
+            <link>https://titulkar.github.io/perak/titulky/QI_-_1301_-_XL_A_Medley_of_Maladies.zip</link>
+            <description>České titulky k 1. dílu QI.</description>
+            <pubDate>Tue, 20 Jan 2026 10:00:00 GMT</pubDate>
+            <enclosure url="https://titulkar.github.io/perak/titulky/QI_-_1301_-_XL_A_Medley_of_Maladies.zip" type="application/zip"/>
+        </item>
+    </channel>
+</rss>
