@@ -94,7 +94,7 @@ table {
 th {
     background-color: #006400;
     color: #ffd700;
-    padding: 12px;
+    padding: 2px;
     text-align: left;
     font-weight: bold;
     position: sticky;
@@ -102,7 +102,7 @@ th {
 }
 
 td {
-    padding: 10px 12px;
+    padding: 2px 2px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -229,11 +229,49 @@ tr:hover {
     text-decoration: underline;
 }
 
+/* Kontejner pro obrázek */
+.obrazek-bublina {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Skrytá bublina s velkým obrázkem */
+.obrazek-bublina .bublina {
+  visibility: hidden;
+  position: absolute;
+  top: 0%;
+  left: 150%;
+  transform: translateX(-50%);
+  border: 2px solid #ccc;
+  background: white;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 100;
+  transition: opacity 0.3s; /* Plynulé zobrazení */
+  opacity: 0;
+}
+
+/* Zobrazení bubliny po najetí myší */
+.obrazek-bublina:hover .bublina {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Omezení šířky velkého obrázku v bublině */
+.bublina img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+
+
 /* Responzivní design pro menší obrazovky */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: 15px;
+        gap: 2px;
         text-align: center;
     }
     
@@ -259,18 +297,18 @@ tr:hover {
     }
     
     th, td {
-        padding: 8px;
+
         font-size: 12px;
     }
     
     .zip-button {
         font-size: 11px;
-        padding: 4px 8px;
+
     }
     
     .video-link {
         font-size: 11px;
-        padding: 3px 6px;
+
     }
 }
 
@@ -280,12 +318,12 @@ tr:hover {
     }
     
     th, td {
-        padding: 8px;
+
         font-size: 13px;
     }
     
     .zip-button {
         font-size: 12px;
-        padding: 5px 10px;
+
     }
 }
