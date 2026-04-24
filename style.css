@@ -207,7 +207,7 @@ tr:hover {
 }
 
 .note {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     color: #666;
     font-size: 14px;
