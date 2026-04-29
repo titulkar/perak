@@ -18,6 +18,7 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+
 h1 {
     color: #008000;
     margin: 0;
@@ -265,6 +266,29 @@ tr:hover {
   max-width: 300px;
   height: auto;
   display: block;
+}
+
+
+/* Šířka vertikálního posuvníku */
+::-webkit-scrollbar {
+  width: 10px; /* Změňte podle potřeby */
+}
+
+/* Šířka horizontálního posuvníku */
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Styl pro posuvnou část (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  border-radius: 5px;
+  background: #006400;
+}
+
+/* Styl pro pozadí posuvníku (track) */
+::-webkit-scrollbar-track {
+  background-color: #ffd700;
 }
 
 
