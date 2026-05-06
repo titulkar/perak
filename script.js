@@ -4,6 +4,20 @@ function checkSubtitleFiles() {
     // Zde by byla logika pro kontrolu existence souborů
 }
 
+function copyEmail(email) {
+  // Použití moderního Clipboard API
+  navigator.clipboard.writeText(email).then(function() {
+    // Zobrazení potvrzení
+    var tooltip = document.getElementById("copyMessage");
+    tooltip.style.display = "inline";
+    setTimeout(function() {
+      tooltip.style.display = "none";
+    }, 1500);
+  }).catch(function(err) {
+    console.error('Chyba při kopírování: ', err);
+  });
+}
+
 // Funkce pro načtení a zpracování RSS kanálu
 async function loadFromRSS() {
     try {

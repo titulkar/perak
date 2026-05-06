@@ -25,6 +25,13 @@ h1 {
     font-size: 22px;
 }
 
+.email-link {
+    color: #4682b4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 .rss-container {
     display: flex;
