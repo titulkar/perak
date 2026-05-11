@@ -5,12 +5,18 @@
         <link>https://titulkar.github.io/perak/</link>
         <description>Přehled nově nahraných titulků k 13. řadě QI (je to soutěžní, komediálně-vzdělávací pořad z Velké Británie, vysílaný stanicí BBC)</description>
         <language>cs-cz</language>
-        <lastBuildDate>Fri, 24 Apr 2026 07:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 11:00:00 GMT</lastBuildDate>
         <atom:link href="https://titulkar.github.io/perak/rss.xml" rel="self" type="application/rss+xml"/>
 
 
 
-
+        <item>
+            <title>QI - S13E06 Manželství a páření</title>
+            <link>https://titulkar.github.io/perak/titulky/QI_-_1306_-_XL_Marriage_and_Mating.zip</link>
+            <description>České titulky k 6. dílu QI.</description>
+            <pubDate>Mon, 11 May 2026 11:00:00 GMT</pubDate>
+            <link rel="alternate" type="application/rss+xml" title="Perakovo stránky s titulky" href="https://titulkar.github.io/perak"> titulky a videa jsou zde </link>
+            </item>
 
         <item>
             <title>QI - S13E05 Matematika</title>
