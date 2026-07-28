@@ -5,9 +5,16 @@
         <link>https://titulkar.github.io/perak/</link>
         <description>Přehled nově nahraných titulků k 13. řadě QI (je to soutěžní, komediálně-vzdělávací pořad z Velké Británie, vysílaný stanicí BBC)</description>
         <language>cs-cz</language>
-        <lastBuildDate>Fry, 3 Jul 2026 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 20:00:00 GMT</lastBuildDate>
         <atom:link href="https://titulkar.github.io/perak/rss.xml" rel="self" type="application/rss+xml"/>
 
+        <item>
+            <title>QI - S13E09 Manipulace mysli</title>
+            <link>https://titulkar.github.io/perak/titulky/QI_-_1309_-_XL_Messing_With_Your_Mind.zip</link>
+            <description>České titulky k 9. dílu QI.</description>
+            <pubDate>Tue, 28 Jul 2026 20:00:00 GMT</pubDate>
+            <link rel="alternate" type="application/rss+xml" title="Perakovo stránky s titulky" href="https://titulkar.github.io/perak"> titulky a videa jsou zde </link>
+            </item>
         <item>
             <title>QI - S13E08 Veselí</title>
             <link>https://titulkar.github.io/perak/titulky/QI_-_1308_-_XL_Merriment.zip</link>
