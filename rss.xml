@@ -5,10 +5,17 @@
         <link>https://titulkar.github.io/perak/</link>
         <description>Přehled nově nahraných titulků k 13. řadě QI (je to soutěžní, komediálně-vzdělávací pořad z Velké Británie, vysílaný stanicí BBC)</description>
         <language>cs-cz</language>
-        <lastBuildDate>Sat, 31 Oct 2026 12:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2026 19:00:00 GMT</lastBuildDate>
         <atom:link href="https://titulkar.github.io/perak/rss.xml" rel="self" type="application/rss+xml"/>
 
 
+        <item>
+            <title>QI - S13E014 Maglajz</title>
+            <link>https://titulkar.github.io/perak/titulky/QI_-_1314_-_XL_Messy.zip</link>
+            <description>České titulky k 14. dílu QI.</description>
+            <pubDate>Mon, 16 Nov 2026 19:00:00 GMT</pubDate>
+            <link rel="alternate" type="application/rss+xml" title="Perakovo stránky s titulky" href="https://titulkar.github.io/perak"> titulky a videa jsou zde </link>
+            </item>
         <item>
             <title>QI - S13E013 Míchanice z monster</title>
             <link>https://titulkar.github.io/perak/titulky/QI_-_1313_-_XL_Monster_Mash.zip</link>
